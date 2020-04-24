@@ -25,8 +25,8 @@ class _HomeState extends State<Home> with FlutterLocalNotification {
   Completer<GoogleMapController> _googleMapController = Completer();
 
   static final CameraPosition _kGooglePlex = CameraPosition(
-    target: LatLng(23.248541, 69.671732),
-    zoom: 14.4746,
+    target: LatLng(19.113965, 72.874376),
+    zoom: 11.4746,
   );
 
   String _mapStyleSilver = '';
